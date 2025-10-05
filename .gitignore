@@ -1,0 +1,36 @@
+# Jenkins-specific files
+.jenkins/
+
+# Build artifacts
+build/
+dist/
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Python cache (if using Python)
+__pycache__/
+*.pyc
+*.pyo
